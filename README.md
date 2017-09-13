@@ -24,7 +24,6 @@ cd scortch
 git remote rm origin
 git remote add origin [YOUR NEW REPOSITORY]
 # Manually update your package.json file
-```
 
 Install the dependencies and start the server.
 
@@ -45,15 +44,16 @@ it will at some time have the API credentials expired and thus be unable to pull
 ### Linting
 
 This Scortch project includes React ESLint configuration.
-
-```
 npm run lint
-```
+
 ### STACK
 
-Node.js  	-  Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine. Node.js uses an event-driven, non-blocking I/O model that makes it lightweight and efficient.  
+Node.js  	-  Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine. Node.js uses an event-driven, non-blocking I/O model that makes it lightweight and efficient. 
+
 React  - React used to create interactive UIs. Design simple views for each state in the application. React will efficiently update and render game data when it changes.
-Html5 - 
+
+Html5 -
+ 
 CSS/SASS - Using Bootstrap - a Framework for developing a responsive website.  Scales our website from a single code base for  phones to tablets to desktops using CSS media queries.
 
 Postgres SQL - with queries built in Knex 
