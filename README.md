@@ -1,15 +1,16 @@
-React Boilerplate
+
+Scortch 
 =====================
 
-A minimal and light dev environment for ReactJS.
+A real time Sports tracker for Major League Baseball built with ReactJS with an integrated chat app.
 
 ### Usage
 
 Clone the boilerplate and create your own git repo.
 
 ```
-git clone git@github.com:lighthouse-labs/react-simple-boilerplate.git
-cd react-simple-boilerplate
+git clone git@github.com:escape-velocity/scortch
+cd scortch
 git remote rm origin
 git remote add origin [YOUR NEW REPOSITORY]
 # Manually update your package.json file
@@ -22,24 +23,42 @@ npm install
 npm start
 open http://localhost:3000
 ```
+You will also need to start the webpack dev server on port 8080 using the following: 
 
-### Static Files
+```
 
-You can store static files like images, fonts, etc in the `build` folder.
+### API access
 
-For example, if you copy a file called my_image.png into the build folder you can access it using `http://localhost:3000/build/my_image.png`.
+As this app was built as a student project in Lighthouse labs coding bootcamp it will at some time have the API credentials expired and thus be unable to pull new feeds of games
 
 ### Linting
 
-This boilerplate project includes React ESLint configuration.
+This Scortch project includes React ESLint configuration.
 
 ```
 npm run lint
 ```
+### STACK
 
-### Dependencies
+Node.js  	-  Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine. Node.js uses an event-driven, non-blocking I/O model that makes it lightweight and efficient.  
+React  - React used to create interactive UIs. Design simple views for each state in the application. React will efficiently update and render game data when it changes.
+Html5 - 
+CSS/SASS - Using Bootstrap - a Framework for developing a responsive website.  Scales our website from a single code base for  phones to tablets to desktops using CSS media queries.
 
-* React
-* Webpack
-* [babel-loader](https://github.com/babel/babel-loader)
-* [webpack-dev-server](https://github.com/webpack/webpack-dev-server)
+Postgres SQL - with queries built in Knex 
+
+### Dependencies:
+
+Style-loader -  Adds CSS to the DOM used to implement animation in the Card loading 
+Axios -  Promise based HTTP client for the browser and node.js.    		The Promise object represents the eventual completion (or failure) of an asynchronous operation, and its resulting value. 
+Express -  minimal and flexible Node.js web application framework 
+Knex -  SQL query builder for Postgres
+Socket.IO  -  enables real-time bidirectional event-based communication over an established socket from client to server.  Features include: A heartbeat mechanism is implemented across the socket for detecting disconnections and Auto-Reconnection Support 
+Ajax  -  Web apps can send data to and retrieve from a server asynchronously (in the background) without interfering with the display and behaviour of the existing page.  decoupling the data layer from the presentation layer, Ajax allows for Web pages to change content dynamically without the need to reload the entire page. 
+
+###Student Challenges
+
+Working with an API provider was the biggest challenge 
+	Understanding API call json data structure
+	Working around rate limitations to data calls
+  Estimating the time required to implement new features 
