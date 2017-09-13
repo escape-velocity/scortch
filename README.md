@@ -33,7 +33,7 @@ npm start
 open http://localhost:3000
 ```
 You will also need to start the webpack dev server on port 8080 using the following: 
-
+"./node_modules/.bin/webpack-dev-server --host 0.0.0.0 --port 8080"
 ```
 
 ### API access
@@ -58,18 +58,23 @@ CSS/SASS - Using Bootstrap - a Framework for developing a responsive website.  S
 
 Postgres SQL - with queries built in Knex 
 
-### Dependencies:
+### Dependencies
 
-Style-loader -  Adds CSS to the DOM used to implement animation in the Card loading 
-Axios -  Promise based HTTP client for the browser and node.js.    		The Promise object represents the eventual completion (or failure) of an asynchronous operation, and its resulting value. 
+Style-loader -  Adds CSS to the DOM used to implement animation in the Card loading
+
+Axios -  Promise based HTTP client for the browser and node.js.	
+
 Express -  minimal and flexible Node.js web application framework 
+
 Knex -  SQL query builder for Postgres
-Socket.IO  -  enables real-time bidirectional event-based communication over an established socket from client to server.  Features include: A heartbeat mechanism is implemented across the socket for detecting disconnections and Auto-Reconnection Support 
-Ajax  -  Web apps can send data to and retrieve from a server asynchronously (in the background) without interfering with the display and behaviour of the existing page.  decoupling the data layer from the presentation layer, Ajax allows for Web pages to change content dynamically without the need to reload the entire page. 
 
-###Student Challenges
+Socket.IO  -  enables real-time bidirectional event-based communication over an established socket from client to server.  Features include: A heartbeat mechanism is implemented across the socket for detecting disconnections and Auto-Reconnection Support
 
-Working with an API provider was the biggest challenge 
+Ajax  -  Web apps can send data to and retrieve from a server asynchronously (in the background) without interfering with the display and behaviour of the existing page.  decoupling the data layer from the presentation layer, Ajax allows for Web pages to change content dynamically without the need to reload the entire page.
+
+### Student Challenges
+
+	Working with an API provider was the biggest challenge 
 	Understanding API call json data structure
 	Working around rate limitations to data calls
-  Estimating the time required to implement new features 
+  	Estimating the time required to implement new features 
