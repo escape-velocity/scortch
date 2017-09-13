@@ -6,6 +6,14 @@ A real time Sports tracker for Major League Baseball built with ReactJS with an 
 PURPOSE of App:      To make a sports fan feel good by connecting them back to their community
 PROBLEM SOLVED:      Fans don’t need to watch a game in Isolation
 
+### API
+
+this is the CORE of our product:     
+* Comes from   mysportsfeeds.com 
+* Incorporates 3 primary feeds  Daily Schedule, Scoreboards (w/boxscore) and Play by Play
+* Show the API feed in terminal
+
+
 ### Usage
 
 Clone the repo and create your own git repo.
@@ -31,7 +39,8 @@ You will also need to start the webpack dev server on port 8080 using the follow
 
 ### API access
 
-As this app was built as a student project in Lighthouse labs coding bootcamp it will at some time have the API credentials expired and thus be unable to pull new feeds of games
+As this app was built as a student project in Lighthouse labs coding bootcamp
+it will at some time have the API credentials expired and thus be unable to pull new feeds of games
 
 ### Linting
 
