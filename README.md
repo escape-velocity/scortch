@@ -4,7 +4,8 @@ Scortch  -  Connects Fans in Real Time on unique Chat Channels
 A real time Sports tracker for Major League Baseball built with ReactJS with an integrated chat app.
 
 PURPOSE of App:      To make a sports fan feel good by connecting them back to their community
-PROBLEM SOLVED:      Fans don’t need to watch a game in Isolation
+
+PROBLEM solved:      Fans don’t need to watch a game in Isolation
 
 ### API
 
