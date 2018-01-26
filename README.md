@@ -7,6 +7,8 @@ PURPOSE of App:      To make a sports fan feel good by connecting them back to t
 
 PROBLEM solved:      Fans don’t need to watch a game in Isolation
 
+This API is no longer available for Scortch to use.
+
 ### API
 
 this is the CORE of our product:     
